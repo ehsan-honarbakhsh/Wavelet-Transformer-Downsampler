@@ -89,14 +89,13 @@ This implementation is built using TensorFlow, Keras, NumPy, and PyWavelets, and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/Wavelet-Transformer-Downsampler.git
+   git clone https://github.com/ehsan-honarbakhsh/Wavelet-Transformer-Downsampler
    cd Wavelet-Transformer-Downsampler
    ```
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Ensure the M4 dataset files (e.g., `Hourly-new.csv`) are placed in the `data_test/` directory or update the file paths in `main.py` and `evaluation.py`.
 
 ## Usage
 
@@ -129,14 +128,14 @@ python evaluation.py --test_file data_test/Quarterly-new.csv
 Run unit tests to verify the implementation:
 
 ```bash
-pytest test_downsampling.py -v
+pytest tests/wavelet_transformer.py -v
 ```
 
 - Tests cover input validation, shape correctness, and loss function behavior.
 - To suppress TensorFlow INFO logs:
   ```bash
   export TF_CPP_MIN_LOG_LEVEL=2
-  pytest test_downsampling.py -v
+  tests/wavelet_transformer.py -v
   ```
 
 ## Configuration
