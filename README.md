@@ -79,7 +79,7 @@ This implementation is built using TensorFlow, Keras, NumPy, and PyWavelets, and
 
 ### Prerequisites
 
-- Python 3.11
+- Python >=3.11
 - Required packages:
   ```bash
   pip install tensorflow>=2.10 numpy>=1.19 pywt>=1.4 pytest>=7.0 pyyaml psutil pandas matplotlib scikit-learn scipy
@@ -205,4 +205,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For questions or issues, please open an issue on the GitHub repository or contact the maintainer at [your-email@example.com].
+For questions or issues, please open an issue on the GitHub repository or contact the maintainer at [ehsan.honarbakhsh96@gmail.com].
