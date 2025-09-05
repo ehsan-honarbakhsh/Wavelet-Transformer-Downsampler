@@ -4,6 +4,8 @@
 
 The Wavelet-Transformer Downsampling Algorithm is a sophisticated method for downsampling time series data while preserving critical temporal and spectral characteristics. It combines wavelet decomposition with a transformer-based architecture to selectively retain the most informative points in a time series, making it suitable for applications requiring efficient data compression, such as signal processing, financial time series analysis, and IoT data reduction.
 
+![The flow chart of the algorithm](docs/pipeline.jpeg)
+
 The algorithm leverages:
 
 - **Wavelet Decomposition**: To separate the signal into approximation (low-frequency) and detail (high-frequency) coefficients using Discrete Wavelet Transform (DWT).
@@ -11,6 +13,8 @@ The algorithm leverages:
 - **Custom Loss Function**: A combination of Mean Squared Error (MSE) and frequency-domain loss to ensure fidelity in both time and frequency domains.
 
 This implementation is built using TensorFlow, Keras, NumPy, and PyWavelets, and is designed to handle batched time series data with flexible configurations.
+
+![Detailed Architecture of the Wavelet-Transformer Downsampler](docs/flow.jpeg)
 
 ## Key Components
 
