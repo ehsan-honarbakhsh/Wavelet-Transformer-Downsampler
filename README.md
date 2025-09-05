@@ -52,7 +52,7 @@ This implementation is built using TensorFlow, Keras, NumPy, and PyWavelets, and
 - **Key Features**:
   - Performs DWT to split input signals into approximation and detail coefficients.
   - Processes detail coefficients through the `DownsampleTransformerBlock`.
-  - Optionally downsamples approximation coefficients using average pooling (`approx_ds_factor`).
+  - Downsamples approximation coefficients using average pooling (`approx_ds_factor`).
   - Normalizes detail coefficients if specified (`normalize_details`).
   - Returns a downsampled signal and optional indices for selected points.
 - **Usage**: The main model for downsampling time series data, combining wavelet and transformer strengths.
