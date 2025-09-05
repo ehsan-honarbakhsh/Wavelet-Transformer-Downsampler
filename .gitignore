@@ -7,7 +7,6 @@ __pycache__/
 *.so
 
 
-!important.tests/test_wavelet_transformer.py
 
 # Distribution / packaging
 .Python
