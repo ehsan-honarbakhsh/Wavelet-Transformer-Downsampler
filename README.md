@@ -104,8 +104,10 @@ This implementation is built using TensorFlow, Keras, NumPy, and PyWavelets, and
 
 Run the training pipeline using the `non-stream` mode:
 
+Instead of the provided datasets ,you can use your own dataset by adding it to the directory and setting the path here
+
 ```bash
-python main.py --pipeline non-stream --hourly_train data_test/Hourly-new.csv
+python main.py --pipeline non-stream --hourly_train data_test/Monthly-new.csv
 ```
 
 - Configurable parameters are defined in `model_config.yaml` (e.g., `embed_dim`, `num_heads`, `retention_rate`).

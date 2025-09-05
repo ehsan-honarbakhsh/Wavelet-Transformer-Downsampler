@@ -215,17 +215,7 @@ def main():
                         default='non-stream', help="Choose pipeline mode: 'stream' or 'non-stream'")
     parser.add_argument('--monthly_train', default="data_test/Monthly-new.csv",
                         help="Path to Monthly training CSV file")
-    parser.add_argument('--daily_train', default="data_test/Daily-new.csv",
-                        help="Path to Daily training CSV file")
-    parser.add_argument('--yearly_train', default="data_test/Yearly-new.csv",
-                        help="Path to Yearly training CSV file")
-    parser.add_argument('--hourly_train', default="data_test/Hourly-new.csv",
-                        help="Path to Hourly training CSV file")
-    parser.add_argument('--quarterly_train', default="data_test/Quarterly-new.csv",
-                        help="Path to Quarterly training CSV file")
-    parser.add_argument('--weekly_train', default="data_test/Weekly-new.csv",
-                        help="Path to Weekly training CSV file")
-    # parser.add_argument('--daily_test', default="M4/Daily/Daily-test.csv", help="Path to Daily test CSV file")
+
     args = parser.parse_args()
 
     keras.utils.set_random_seed(42)
