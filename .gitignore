@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+
+!important.tests/test_wavelet_transformer.py
+
 # Distribution / packaging
 .Python
 build/
