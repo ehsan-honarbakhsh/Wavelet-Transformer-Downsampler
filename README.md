@@ -128,14 +128,14 @@ python evaluation.py --test_file data_test/Quarterly-new.csv
 Run unit tests to verify the implementation:
 
 ```bash
-pytest tests/wavelet_transformer.py -v
+pytest tests_wt/wavelet_transformer.py -v
 ```
 
 - Tests cover input validation, shape correctness, and loss function behavior.
 - To suppress TensorFlow INFO logs:
   ```bash
   export TF_CPP_MIN_LOG_LEVEL=2
-  tests/wavelet_transformer.py -v
+  tests_wt/wavelet_transformer.py -v
   ```
 
 ## Configuration
