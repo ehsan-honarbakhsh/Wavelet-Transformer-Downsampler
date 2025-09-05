@@ -1,0 +1,16 @@
+embed_dim: 64
+num_heads: 4
+ff_dim: 64
+num_transformer_blocks: 1
+retention_rate: 0.8
+global_attention_weight: 0.7
+local_attention_weight: 0.3
+wavelet_name: db4
+dwt_level: 1
+approx_ds_factor: 2
+original_length: 100
+normalize_details: true
+decomposition_mode: symmetric
+batch_size: 32
+epochs: 30
+learning_rate: 0.0001
